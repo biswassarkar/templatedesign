@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One','Bebas Neue', 'Montserrat', sans-serif, cursive;
+
+
+}
+
+.temlpate {
+    max-width: 1200px;
+    margin: auto;
+}
+.top-section {
+    background-image: url(images/background-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px ;
+    
+}
+.logo {
+    height: 80px;
+    display: flex;
+    justify-content: left;
+
+   
+}
+.delivary-contact {
+    height: 25px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-top: -50px;
+}
+.delivary-contact h5 {
+  padding-left: 5px;
+  padding-right: 15px;
+}
+.nav-ber {
+    height: 45px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ 
+}
+.nav-ber ul {
+    padding: 0;
+    list-style: none;
+}
+.nav-ber ul li {
+    display: inline-block;
+
+}
+.nav-ber ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+.info {
+    width: 50%;
+}
+.one-helf {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+
+}
+.info h5 {
+    line-height: 20px;
+    border-style: dashed;
+    text-align: center;
+    font-size: 10px;
+
+}
+.info h1 {
+    font-size: 85px;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+.middle-part {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+    margin: auto;
+}
+.img1 {
+    width: 100%;
+    height:420px ;
+    background-image: url(images/01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.img1 h2 {
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+}
+.special {
+    font-size: 30px;
+}
+.img2 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-image: url(images/02.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.img2 h2 {
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.special {
+    font-size: 30px;
+}
+.img3 {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    background-image: url(images/03.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.img3 h2 {
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.special {
+    font-size: 30px;
+}
+
+.two-img {
+    width:49% ;
+}
+.img1 {
+    width: 49%;
+}
+.tasty-burger {
+    text-align: center;
+}
+.tasty-burger h2 {
+    font-size: 25px;
+    background-color: orange;
+    display: inline-block;
+    padding: 8px 19px;
+}
+
+.tasty-burger h1 {
+    font-size: 60px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.product-info {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+.product-info img {
+    width: 100%;
+  
+}
+
+.product-info h2  {
+    padding: 15px;
+}
+.product-info p{
+    padding-bottom: 30px;
+}
+.product-info a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.421);
+    height: 500px;
+}
+.discover-info {
+    width: 50%;
+}
+.discover-info h3 {
+    font-size:30px ;
+}
+.discover img {
+    padding-left: 60px;
+    width: 100%;
+}
+.table-top {
+    text-align: center;
+    padding: 70px;
+}
+table {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    border-spacing: 20px;
+    padding-bottom: 20px;
+   
+}
+tr td {
+    border: 1px solid black;
+    padding: 5px 8px;
+}
+.boder-none {
+    border: none;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.table-top h3 {
+    font-size: 15px;
+}
+.table-top h2 {
+    font-size: 28px;
+
+} 
+.last-part {
+    width: 1200px;
+    height: 400px;
+    background-image: url(images/background-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 10px;
+    color: white;
+}
+.logo-2 {
+  padding: 80px;
+}
